@@ -1,0 +1,6 @@
+#!/bin/sh
+
+[[ -f ~/.config/zsh/.zshenv ]] && source ~/.config/zsh/.zshenv
+
+# xset r rate 300 50 &
+unclutter &		# Remove mouse when idle

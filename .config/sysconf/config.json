@@ -1,0 +1,80 @@
+{
+  "audio": "pulseaudio",
+  "bootloader": "systemd-bootctl",
+  "filesystem": "ext4",
+  "gfx_driver": "AMD / ATI (open-source)",
+  "harddrives": [
+    "/dev/nvme0n1"
+  ],
+  "swap": true,
+  "hostname": "archlinux",
+  "kernels": [
+    "linux"
+  ],
+  "keyboard-language": "uk",
+  "mirror-region": "Worldwide",
+  "nic": {
+    "NetworkManager": true,
+    "nic": "Use NetworkManager (necessary to configure internet graphically in GNOME and KDE)"
+  },
+  "ntp": true,
+  "packages": [
+    "docker",
+    "git",
+    "zsh",
+    "firefox",
+    "xorg-xset",
+    "xorg-xkill",
+    "xdg-user-dirs",
+    "xdg-utils",
+    "xfce4",
+    "xfce4-whiskermenu-plugin",
+    "xfce4-notifyd",
+    "xfce4-datetime-plugin",
+    "xfce4-pulseaudio-plugin",
+    "lightdm",
+    "lightdm-gtk-greeter",
+    "gvfs",
+    "xarchiver",
+    "pavucontrol",
+    "keepassxc",
+    "unclutter",
+    "lm_sensors",
+    "udisks2",
+    "ffmpeg",
+    "reflector",
+    "profile-sync-daemon",
+    "go",
+    "gsmartcontrol",
+    "thermald",
+    "zsh-completions",
+    "zsh-autosuggestions",
+    "openssh",
+    "docker-compose",
+    "vlc",
+    "x11-ssh-askpass",
+    "network-manager-applet",
+    "nm-connection-editor",
+    "redshift"
+  ],
+  "profile": "xorg",
+  "services": [
+    "docker",
+    "lightdm"
+  ],
+  "sys-encoding": "utf-8",
+  "sys-language": "en_GB",
+  "timezone": "Europe/Ljubljana"
+}
+
+
+
+
+
+
+
+
+
+
+
+https://raw.githubusercontent.com/exmoria/sysconf/main/config.json

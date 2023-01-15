@@ -1,0 +1,64 @@
+{
+    "audio": "pulseaudio",
+    "bootloader": "systemd-bootctl",
+    "filesystem": "ext4",
+    "harddrives": [
+      "/dev/sdb"
+    ],
+    "swap": true,
+    "hostname": "archlinux",
+    "kernels": [
+      "linux"
+    ],
+    "keyboard-language": "slovene",
+    "mirror-region": "Worldwide",
+    "nic": {
+      "type": "NM"
+    },
+    "ntp": true,
+    "packages": [
+      "mesa",
+      "libva-intel-driver",
+      "git",
+      "zsh",
+      "firefox",
+      "xorg-xset",
+      "xorg-xkill",
+      "xdg-user-dirs",
+      "xdg-utils",
+      "xfce4",
+      "xfce4-whiskermenu-plugin",
+      "xfce4-notifyd",
+      "xfce4-datetime-plugin",
+      "xfce4-pulseaudio-plugin",
+      "lightdm",
+      "lightdm-gtk-greeter",
+      "gvfs",
+      "engrampa",
+      "pavucontrol",
+      "keepassxc",
+      "unclutter",
+      "lm_sensors",
+      "udisks2",
+      "ffmpeg",
+      "reflector",
+      "profile-sync-daemon",
+      "go",
+      "gsmartcontrol",
+      "thermald",
+      "zsh-completions",
+      "zsh-autosuggestions",
+      "vlc",
+      "network-manager-applet",
+      "nm-connection-editor",
+      "redshift"
+    ],
+    "profile": "xorg",
+    "services": [
+      "lightdm"
+    ],
+    "sys-encoding": "utf-8",
+    "sys-language": "sl_SI",
+    "timezone": "Europe/Ljubljana"
+  }
+  

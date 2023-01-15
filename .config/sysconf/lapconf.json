@@ -13,7 +13,7 @@
     "keyboard-language": "slovene",
     "mirror-region": "Worldwide",
     "nic": {
-      "type": "NM"
+      "type": "nm"
     },
     "ntp": true,
     "packages": [
